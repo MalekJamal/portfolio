@@ -77,6 +77,7 @@ class Header extends Component {
                     marginLeft: "20px",
                     color: "#353239",
                   }}
+                  
                 ></span>
               }
               checkedIcon={
@@ -98,11 +99,15 @@ class Header extends Component {
             />
           </Nav.Item>
         </Nav>
+        
         <div className="row aligner" style={{height: '100%'}}>
+          
           <div className="col-md-12">
+          
             <div>
               <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
               <br/>
+              
               <h1 className="mb-0">
                 {name}
               </h1>
@@ -110,9 +115,11 @@ class Header extends Component {
                 <HeaderTitleTypeAnimation />
               </div>
               
+
             </div>
           </div>
         </div>
+        
       </header>
     );
   }

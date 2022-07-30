@@ -14,7 +14,12 @@ html {
 	align-items: center;
 	justify-content: center;
 }
-
+video{
+	border-radius: 10px;
+	width: 100%;
+	height: 550px;
+	object-fit: cover;
+}
 .title-container {
 	height: 50px;
 }
@@ -27,18 +32,19 @@ html {
 .header-icon {
 	height: 150px;
 	width: 150px;
+	color: #ccc;
 }
 
 header {
 	position: relative;
-	height: 520px;
+	height: 350px!important;
 	min-height: 450px;
 	width: 100%;
 	background-size: cover;
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #9f4630!important;
+	background-color: #9f4630;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -51,7 +57,13 @@ header .nav {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
+	font-weight: bold;
+	
 }
+.nav a{
+	color: rgb(255, 246, 246);
+}
+
 
 .github-corner:hover .octo-arm {
 	animation:octocat-wave 560ms ease-in-out

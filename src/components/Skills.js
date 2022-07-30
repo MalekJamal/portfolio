@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-
+import videoBg from '../videos/video.mp4';
+import "../App.scss"
 class Skills extends Component {
   render() {
     if (this.props.sharedSkills && this.props.resumeBasicInfo) {
@@ -32,6 +33,7 @@ class Skills extends Component {
               <span className="text-white">{sectionName}</span>
             </h1>
           </div>
+          <video src={videoBg} autoPlay loop muted ></video>
           <div className="col-md-12 text-center">
             <ul className="list-inline mx-auto skill-icon">{skills}</ul>
           </div>
