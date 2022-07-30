@@ -1,20 +1,36 @@
 {
     "basic_info": {
-      "name": "Ursula Lopez",
-      "titles": [ "Software Developer" ],
+      "name": "Malek Hamdan",
+      "titles": [ "Full-Stack Developer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/MalekJamal",
           "class": "fab fa-github"
         },
         {
           "name": "instagram",
           "url": "https://www.instagram.com",
           "class": "fab fa-instagram"
+        },
+        {
+          "name": "Linked-in",
+          "url": "https://www.linkedin.com",
+          "class": "fab fa-linkedin-in"
+        },
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com",
+          "class": "fab fa-facebook-f"
+        },
+        {
+          "name": "telegram",
+          "url": "https://www.twitter.com",
+          "class": "fab fa-telegram"
         }
+        
       ],
-      "image": "myProfile.jpg"
+      "image": "myProfile2.jpg"
     },
     "skills": {
       "icons": [
@@ -27,16 +43,6 @@
           "name": "CSS 3",
           "class": "devicon-css3-plain",
           "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
         },
         {
           "name": "JavaScript",
